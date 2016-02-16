@@ -1,0 +1,111 @@
+# Challenges of Large Software:
+
+- Distributed Real time system
+- Human comprehension
+- Growth in hardware complexity(doubles every 18 month)
+- Lack of standarization (The key is standardization)
+- Lack of Mestument (time and cost are hard to estimate without the empirical knowledge of the organization's capabilities.
+
+Salesforce.com (CRM)
+Each company would try to have their own CRM before Salesforce.
+It was the first SaaS model.
+
+Moore's Law (not a law, more of an empirical observation).
+Hardware vendors take the lead, because software cannot run without hardware to run on.
+
+Can think of software as distributed and as layers w/hardware being the bottom layer.
+
+
+# Largest Software Failures in history.
+
+Done by the military.  The military is the largest single software development company in the world.
+It has to be highly distributed, without error, and highly secure.
+
+
+# Case Study: Denver Airport
+- Baggage delivered by 4000 automated "tele cars".
+- 100 computers controlled movement using electric eyes, bar-code censors, and radio receivers.
+- Considered a large failure
+
+# Impact of software failures.
+- 55% of projects cost more than expected.
+- 68% took longer than estimated to complete.
+- 88% of projects had to be substantially redesigned
+
+## Failed projects are not used
+- 75% of large projects are operating failures or not used at all.
+
+## Public Safety can be affted
+- Trains
+- Aviation
+- Life support
+- Nulclear power plants
+
+# Federal viation Administration
+- 2.6 Billion dollar project
+- 1 millinon lines of code, 100s of computers
+- 57% of bugher wasted according to (GAO)
+- 2/3 of project is cancelled, res is late
+- Reasons for failure
+  - FAA assumed that IBM would use engineering techniques.
+  - GOA reports that human factors were the main reson for failure.
+
+# Engineering Approach
+
+Brad cox - Got to leave the pre industrial software development process
+- systematic
+  - establish standard practices.
+  - allow repeatable results.
+- quantifiable
+
+Improve the process
+
+# Capability Maturity Model
+- Developed by SEI
+- Defines level of maturity from 1 to 5.
+
+With Raytheon:
+- most projects completed ahdead of scheduyle and under budget
+- productivity doubled
+- savings of $7.80 for every dollar invested in CMM
+
+https://en.wikipedia.org/wiki/Capability_Maturity_Model
+
+## Maturity levels
+### Initial
+### Managed
+### Defined
+### Quantitatvely Managed
+### Optimizing
+
+In 1994, two CMM level 5 organizations
+In 2005 there are 85
+  
+# Traditional Development method:  Waterfall Method
+
+# RUP
+
+# AGILE
+
+# AUP
+
+
+
+# SOA vs Modular Design
+SOA is Modular Design but modular desing isn't neccessarily SOA
+
+You use theory to minimize uncertainty.
+[Known knowns, known unknowns, unknown knows, unknown unkowns.](https://en.wikipedia.org/wiki/There_are_known_knowns)
+
+
+VOCAB:
+Note: Encapsulation, hiding login in a class.
+Deliverable: what the client gets.
+
+
+What has worked:
+Informal relationships within the company.
+
+Do you have a susyem that they are bulding or already aplanning , they can tell usthat, we can do this etc.
+This is a independent set of eyes, and it doesn' tcost you anything.
+Chit chat and chat for 15 to t10 minutes.

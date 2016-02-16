@@ -1,0 +1,126 @@
+DAY 1 FEB 9th / 2016
+
+Introduction
+————————————————————————————
+
+Prof S. Shivendu
+
+Research: pricing of digital goods.  Contracts, how to design them to address special issues in IT.  Security research.
+
+SLA	in IT: because of the amount of revenue involved.  Contracts: https://en.wikipedia.org/wiki/Service-level_agreement
+
+It is difficult to judge software on quality, its observable but difficult to define concretely. UX for example.
+———————————————————————————— 
+
+
+Information Systems Development
+———————————————————————————— 
+
+7 steps of system development (not relevant to today business world)
+Identifying problems, opportunities objectives
+Determine human info reqs
+analyze system needs
+design recommended system
+develop and document software
+testing and maintaining the system
+implementing and evaluating the system.
+
+IT != IS
+IS != Software
+
+IS any organization of information that has purpose.
+
+
+Why do most projects take longer to develop.
+Bad requirements.
+Underestimating the time it takes.
+
+
+4 dimensions of Software Systems
+People
+Variations in productivity
+Process
+quality issues
+customer orientation
+Product
+Technology
+
+Classic Mistakes
+— People
+Undermined motivation
+Weak personnel
+Uncontrolled problem employees
+Heroics
+Add people to late to a project (knowledge transfer) (if you do bring someone in, bring in someone they want.)
+Noisy, crowded offices
+Friction between developers and customers
+Unrealistic expectations
+Lack of effective project sponsorship
+Lack of stakeholder buy-in
+Lack of user input
+Politics places over substance
+Wishful thinking
+
+Process
+overly optimistic schedules
+insufficient risk management
+contractor failure
+insufficient planning
+abandonment of planning under pressure
+wasted time during the fuzzy front end
+shortchanged upstream activities.
+inadequate design
+shortchanged quality assurance
+insufficient management controls
+premature or overly request convergence
+omitting necessary task from estimates
+planning to catch up later
+code-like-hell programming
+Product
+reqs gold-plating (say it somehow meets the reqs)
+feature creep
+developer gold-plating
+push me, pull me negotiating
+research-oriented development
+Technology
+silver-bullet syndrome
+overestimated savings from new tools or methods
+switching tools in the middle of a project
+Dilbert (mandating new language standards in the middle of a project)
+Lack of automated source-code control.
+
+How to make developers perform:
+Ask them if they can accomplish the deadline: Let them buy in.
+
+Research Areas
+Human Interaction
+Computational Emergence
+Design
+Computation Engineering
+Adaptive System Infrastructure
+Adaptable and Predictable System Quality
+Policy, Acquisition, and Management
+
+Software system development
+Business Problem Domain
+knowledge of the application domain
+more information systems fail due to a lack of domain understanding than poor technology
+Systems solution domain knowledge
+
+Software system development
+Systems are never started from scratch.
+Systems are not always 100% automated.
+
+It is a system interacting with software information humans and machines.
+
+Modular design and abstractions help to handle complexity.
+Natural language is ambiguous.
+
+interfaces (Black Box)
+internal design (clear box)
+
+modules measurements of goodness:
+loose coupling
+cohesion
+
+Encapsulation - SOA- Software orientated architecture.

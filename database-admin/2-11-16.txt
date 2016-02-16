@@ -1,0 +1,81 @@
+*It is always good to know what is the history of a technology.*
+
+Week 1:
+
+Introduction: Relational Data Model (RDM)
+
+[PL/SQL](https://en.wikipedia.org/wiki/PL/SQL)
+
+Orignal databases were acutally indexed files.
+Indian Railway still runs on this system. (Fortran) Written in the 1980s.
+
+You need a developer to get the files.
+Data Integrity:  You ahve to manually make sure everythin is correct.  Concurrent access to the data.
+
+store date retrieve data is a database might as well be a file system.
+
+DBMS == DataBase Management Systesm
+The whole data management aspect.
+Security: How you control who accesses what data.
+Backup
+Data Loss
+
+RDBS is the first database that seperate the logical design of the system and the physical desin of a system.
+
+Relational Model made around late 1970s got popular around 1985
+----------------
+Logically in this database everything is a table.  We don't need to understand the hardware side of how a RDBS works.
+Relation basically means Table
+
+Helps us focus more on the data than on the storage.
+
+(each processor has its own assemply language) Not important for class but intersting.
+
+
+Rows are sometimes called a n-tuples, columns are something a field or attribute.
+One row is one instance.
+
+Null the data never exists.  Null != 0 duh!
+Have to explicitely set not null.
+
+Rows techinally do not have an order.
+
+formal    | informal
+----------|---------
+relation  | table
+attribute | column
+tuple     | row
+
+each column can be represented as A1, A2, ... An
+
+R = (A1, A2, ... An) relation Schema
+
+R is a subset of the complete set, the complete set is the number of unique values in each column multiplies by each other. (The different combinations also called the Domain)
+
+When you are designing the sotrag you have to think about what is the maximum different values possible. (The full domain space).
+This is my current subset/relation but it could go all the way up to the domain space.
+
+current_values == realtion instance
+
+and element t of r is a tuple or row in a table.
+
+a *key* is a subset of a relation schema (another words, a group of column(s) in a table.)
+a *superkey* is a key that is unique (can identify a row), biggest superkey is the whole row.
+a *candidate key* is a candidate for the *primary key*. It is the minimal subset, the most minimal superkey. so usually one column but not always.
+*pirmary key* is the uniquely identifying key.
+*foreign key* constract connects two relations with key value of one relation appearing in another.
+
+Uniary operator = acts on one object
+Binary operator = acts on two objects
+
+Selection returns rows (or a subset of the relation's tuples)
+Projects returns columns (or a subset of the relation's attributes)
+Cartesian product Returns all pairs of rows from two relations.  5 x 5 and 4 x 5 == 20 x 10 (does the join)
+Union: out put of union of rows from two relationships.  Just combine everything (don't do the join) gives 9 x 10
+Intersectin: the commanality of two tables
+Difference: The different values.
+Natural Join: output pairs of rows thwith matching values.
+
+SQL language is a hight leveled structured query language.
+it is a declarative language rahten than procederal.
+The query optimizer considers alternative execution plans picking the most effecient plan for the query.
