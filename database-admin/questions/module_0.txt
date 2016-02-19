@@ -1,6 +1,1 @@
-What is the repository of metadata/data-dictionary?  What is actually in there?
-From the intro to Oracle reading.
-
-A row locks while a update is executed on it.  Say two statements are executed simultaneously and update the same column with different values.
-
 What is a synthetic key? from the presentation.
