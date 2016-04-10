@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="010AA692-CCE1-2347-3CE8-99ECE2F1B2CC" schemaObject="D049DA63-8F50-2857-1219-73023A14EBD5" name="ReadingListItem">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>DB554</sourceObjSchema>
+<sourceObjName>ReadingListItem</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:37 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="211CF531-B5C7-7C51-DEE8-412955F5950C">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>ReadingListItem</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="75B5C0BB-1F98-F2EE-A74F-418AD294FE3D">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>ReadingListItem</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="485FAB41-56EE-5F72-7F5F-7EFD6D1F0469" referredColumn="57A1F2E3-BAB9-135E-68D7-8C94A7E197C1"/>
+</associations>
+</Column>
+<Column name="QUESTION_ID" id="C0EBDC8D-ACDF-0F25-E8EF-40CA701CACEA">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>ReadingListItem</sourceObjSchema>
+<sourceObjName>QUESTION_ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6E3CCF4-8EB0-9AF3-4D0B-4AC12B24F291" referredColumn="7865E279-9EDD-6D88-7BE5-8AADD9156B26"/>
+</associations>
+</Column>
+<Column name="CREATED" id="95FE4D38-8F69-0D3D-7CA3-82F032938548">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>ReadingListItem</sourceObjSchema>
+<sourceObjName>CREATED</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4760655-8DD2-ABB0-C1C6-5468ACAEC0E8" schemaObject="D049DA63-8F50-2857-1219-73023A14EBD5" name="ReadingListItem_PK">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>DB554</sourceObjSchema>
+<sourceObjName>SYS_C0025794</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="211CF531-B5C7-7C51-DEE8-412955F5950C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F954B8EB-E4B7-BAEA-E2E5-CE3CE60D9A24" name="SYS_C0025795">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75B5C0BB-1F98-F2EE-A74F-418AD294FE3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FFB2966-02F5-D136-A148-66E0C7FB0D0C" name="SYS_C0025796">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0EBDC8D-ACDF-0F25-E8EF-40CA701CACEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

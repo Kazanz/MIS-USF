@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFF1FB55-1C0B-197F-1FE0-FAD4925C88DE" name="Responses">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>B3DE308C-2A93-AE53-24A2-420E50356C8D</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="15B7E700-6F26-ABC3-1E26-C0BD01CD8699">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>EDDD4108-3A08-0844-3D5A-F090F8B89B5A</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEXT" id="01BC70B8-40CD-AF35-4FD4-59AD1D7F08C7">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>0A622642-33A2-9642-AFC0-A7237E064FD8</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPVOTES" id="65C35D9A-3B8F-A65A-E818-BC555447115D">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>12E19227-F7AE-884C-9912-48147C82EBC9</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOWNVOTES" id="CE613024-B9B5-07E1-A7CA-954895B18E37">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>D33FE2E4-6662-E0BE-EE8A-699F8604C2BC</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER ID" id="6E99DA5C-3424-CA3D-D555-F33BE9484B4B">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>55090A32-67DE-6688-E28F-823062CD62E3</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<referedAttribute>F503D1E1-1983-6EFA-E5EF-DD1BD012DF86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED" id="8BE42F6C-D834-832A-A0C7-0BF0B05BEA13">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>7C356185-A41C-19E9-2709-316BEAF159EC</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPDATED" id="52982445-3D02-14C0-8596-CB375453C4AA">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>A38FD288-5741-37D1-8F9D-34DBB48EFD92</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0787D706-7C1E-DCB4-3523-987B4251D0BB" name="Responses PK">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:22:03 UTC</createdTime>
+<generatorID>19A6B887-53AB-F7A9-9A75-E5A3696DFE76</generatorID>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="33B4B1BE-1A9C-5416-4EDC-B45AF1C99379" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15B7E700-6F26-ABC3-1E26-C0BD01CD8699</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

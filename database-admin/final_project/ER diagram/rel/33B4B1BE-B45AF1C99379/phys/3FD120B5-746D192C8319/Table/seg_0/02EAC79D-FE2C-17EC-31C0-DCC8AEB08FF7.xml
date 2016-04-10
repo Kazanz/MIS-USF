@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="QuestionFollows" directorySegmentName="seg_0" id="02EAC79D-FE2C-17EC-31C0-DCC8AEB08FF7">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:37 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>D049DA63-8F50-2857-1219-73023A14EBD5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>656A2787-032A-3E5C-D864-0A3604EA66DE</segment>
+<tableSpace>D64BB123-17D7-30C0-0E19-9EF892F5282E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="QUESTION_ID" id="3E688AF3-7328-4E0E-0BC5-EC70B36D3973">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="83DAA68A-66DD-468A-5717-99A2073B66AD">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED" id="F4D0B2D4-AC5F-4E15-0664-7436C0D637DA">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="F9D25F3A-0510-28E0-EDE0-4E7EE927B024">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0025807" id="85FAD1B4-1BB7-6B36-550E-64DBA9574DBB">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0025806" id="E819F475-1FFF-E813-47F5-ABF226275786">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="QuestionFollows_PK" id="13134D01-729A-C1D9-DFA3-A038A9F3E325">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<schemaObject>D049DA63-8F50-2857-1219-73023A14EBD5</schemaObject>
+<segment>1196B525-8BB6-4DB2-34FD-F233769D51EB</segment>
+<tableSpace>D64BB123-17D7-30C0-0E19-9EF892F5282E</tableSpace>
+<indexSegment>1196B525-8BB6-4DB2-34FD-F233769D51EB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

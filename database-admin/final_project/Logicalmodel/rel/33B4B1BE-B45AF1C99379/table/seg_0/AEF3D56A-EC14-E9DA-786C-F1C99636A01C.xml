@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEF3D56A-EC14-E9DA-786C-F1C99636A01C" schemaObject="D049DA63-8F50-2857-1219-73023A14EBD5" name="Settings">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>DB554</sourceObjSchema>
+<sourceObjName>Settings</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:37 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="BBA81450-49BE-3AB9-55BE-A99CA4FFD8EB">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Settings</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23C3CD62-096F-195A-871D-24518AC70D35" referredColumn="57A1F2E3-BAB9-135E-68D7-8C94A7E197C1"/>
+</associations>
+</Column>
+<Column name="ALLOW_SEARCH_INDEXING" id="182A4BCC-EA97-EEED-0CA5-59615317C04C">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Settings</sourceObjSchema>
+<sourceObjName>ALLOW_SEARCH_INDEXING</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<constraintName>SYS_C0025823</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALLOW_TO_BE_SEEN" id="78479B1B-72F1-0B46-014B-C26F80EED7AC">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Settings</sourceObjSchema>
+<sourceObjName>ALLOW_TO_BE_SEEN</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<constraintName>SYS_C0025824</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALLOW_ADULT_CONTENT" id="AB867F4B-744C-9042-B5AA-BD2E27ABE691">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Settings</sourceObjSchema>
+<sourceObjName>ALLOW_ADULT_CONTENT</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<constraintName>SYS_C0025825</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECIEVE_MSGS_FROM" id="AFD244D2-C4DC-93DB-B36B-156424325629">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Settings</sourceObjSchema>
+<sourceObjName>RECIEVE_MSGS_FROM</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<constraintName>SYS_C0025828</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;anyone&apos;" description=""/>
+<valueDef value="&apos;followed&apos;" description=""/>
+<valueDef value="&apos;none&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALLOW_ANON_ANSWER_REQS" id="886BEE41-CE12-1694-98E3-3CE1A2574C61">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Settings</sourceObjSchema>
+<sourceObjName>ALLOW_ANON_ANSWER_REQS</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<constraintName>SYS_C0025826</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALLOW_COMMENTS" id="699C8827-75C3-0152-DEDA-F6AA4B282232">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Settings</sourceObjSchema>
+<sourceObjName>ALLOW_COMMENTS</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<constraintName>SYS_C0025827</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1A04390-6FA8-8369-C8FB-BF09567C0124" schemaObject="D049DA63-8F50-2857-1219-73023A14EBD5" name="Settings_PK">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>DB554</sourceObjSchema>
+<sourceObjName>SYS_C0025829</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA81450-49BE-3AB9-55BE-A99CA4FFD8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25CCFE55-F141-CDED-D529-5890AC4C78FF" name="SYS_C0025830">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA81450-49BE-3AB9-55BE-A99CA4FFD8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

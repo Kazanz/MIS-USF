@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Categories" directorySegmentName="seg_0" id="EFDC4C48-FACD-505F-C087-A6CBF32E812A">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:37 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>D049DA63-8F50-2857-1219-73023A14EBD5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>656A2787-032A-3E5C-D864-0A3604EA66DE</segment>
+<tableSpace>D64BB123-17D7-30C0-0E19-9EF892F5282E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="28691351-02EA-3B25-A194-1F15640B1730">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ABOUT" id="44B1CB6F-88D3-EE1A-5C0D-89865073D478">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="45115BC9-74CA-78E7-3936-5B107316CDB8">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED" id="5A1C8435-B3B8-CAB8-EA5D-065138AC339E">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED" id="8593AA5A-A910-C3F3-3588-21C6F2AFEEE7">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Categories_PK" id="30B8C063-8646-3FF0-2C4F-60A6A9D4C3DC">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<schemaObject>D049DA63-8F50-2857-1219-73023A14EBD5</schemaObject>
+<segment>1196B525-8BB6-4DB2-34FD-F233769D51EB</segment>
+<tableSpace>D64BB123-17D7-30C0-0E19-9EF892F5282E</tableSpace>
+<indexSegment>1196B525-8BB6-4DB2-34FD-F233769D51EB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Categories_TITLE_UN" id="9272D915-1D7D-D2E4-9CAD-29E7AFE50FB0">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<schemaObject>D049DA63-8F50-2857-1219-73023A14EBD5</schemaObject>
+<segment>1196B525-8BB6-4DB2-34FD-F233769D51EB</segment>
+<tableSpace>D64BB123-17D7-30C0-0E19-9EF892F5282E</tableSpace>
+<indexSegment>1196B525-8BB6-4DB2-34FD-F233769D51EB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

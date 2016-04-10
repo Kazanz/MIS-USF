@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B05F82B-4E79-1B87-3204-4D7B4CA7A111" schemaObject="D049DA63-8F50-2857-1219-73023A14EBD5" name="Comments">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>DB554</sourceObjSchema>
+<sourceObjName>Comments</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:37 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A47EEF90-27E0-AF3D-B4C0-6F34E0BD5411">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Comments</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPONSE_ID" id="000EC824-B9CC-BF5D-5DC1-D4994D4B9E04">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Comments</sourceObjSchema>
+<sourceObjName>RESPONSE_ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87FE30BF-86CC-9A12-6AA6-C4AA35A6BE0F" referredColumn="EDDD4108-3A08-0844-3D5A-F090F8B89B5A"/>
+</associations>
+</Column>
+<Column name="PARENT_ID" id="F3C93607-FD91-2695-2731-450206CBCC4E">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Comments</sourceObjSchema>
+<sourceObjName>PARENT_ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B9DB6B7-6E55-E82F-CC66-C0CBC4735CB8" referredColumn="EDDD4108-3A08-0844-3D5A-F090F8B89B5A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2808B8A1-4790-9A6F-FEDA-AD1A2FD420C4" schemaObject="D049DA63-8F50-2857-1219-73023A14EBD5" name="Comments_PK">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>DB554</sourceObjSchema>
+<sourceObjName>SYS_C0025781</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A47EEF90-27E0-AF3D-B4C0-6F34E0BD5411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEFF2FE9-4841-6A0E-637B-8CAAD35A36A3" name="SYS_C0025782">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="000EC824-B9CC-BF5D-5DC1-D4994D4B9E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D342CEE4-8BE1-C7B2-5FF0-A54A7EDB412B" name="SYS_C0025783">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3C93607-FD91-2695-2731-450206CBCC4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

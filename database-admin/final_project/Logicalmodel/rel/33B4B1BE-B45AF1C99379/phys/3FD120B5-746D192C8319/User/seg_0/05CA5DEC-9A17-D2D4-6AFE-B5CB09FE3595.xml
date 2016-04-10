@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="DB554" directorySegmentName="seg_0" id="05CA5DEC-9A17-D2D4-6AFE-B5CB09FE3595">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjName>DB554</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:37 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<schemaObject>D049DA63-8F50-2857-1219-73023A14EBD5</schemaObject>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="7FB1BCE9-92FF-A041-22AC-1F39FDBD54A4">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:37 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

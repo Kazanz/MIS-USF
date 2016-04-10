@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="466547A2-CA4A-E70B-4F77-FB3FD45620F0" schemaObject="D049DA63-8F50-2857-1219-73023A14EBD5" name="Answers">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>DB554</sourceObjSchema>
+<sourceObjName>Answers</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:37 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="488C4936-72D6-D486-BB93-E586CBA6A97C">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Answers</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPONSE_ID" id="625AEF24-4C4C-5696-2E31-5FD10C1202EC">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Answers</sourceObjSchema>
+<sourceObjName>RESPONSE_ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="061B7F50-6689-9442-AB88-A3E3D5CFCDC5" referredColumn="EDDD4108-3A08-0844-3D5A-F090F8B89B5A"/>
+</associations>
+</Column>
+<Column name="QUESTION_ID" id="47F62D6E-2E46-39A7-03C3-041E2DCF5E2C">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>Answers</sourceObjSchema>
+<sourceObjName>QUESTION_ID</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0ADBD4F1-762E-7A66-5F62-89410A1C94D1" referredColumn="7865E279-9EDD-6D88-7BE5-8AADD9156B26"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="151FEACC-2A18-15C9-A92A-DCC165C1953E" schemaObject="D049DA63-8F50-2857-1219-73023A14EBD5" name="Answers_PK">
+<sourceConnName>ADB+Group</sourceConnName>
+<sourceObjSchema>DB554</sourceObjSchema>
+<sourceObjName>SYS_C0025799</sourceObjName>
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:39 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="488C4936-72D6-D486-BB93-E586CBA6A97C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7877C00B-8110-634C-B8D0-6D34C7ADC96D" name="SYS_C0025800">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="625AEF24-4C4C-5696-2E31-5FD10C1202EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="931F6911-EBDF-6585-4515-9E6B55B4E61F" name="SYS_C0025801">
+<createdBy>kazanz</createdBy>
+<createdTime>2016-04-10 21:14:41 UTC</createdTime>
+<ownerDesignName>Logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47F62D6E-2E46-39A7-03C3-041E2DCF5E2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
