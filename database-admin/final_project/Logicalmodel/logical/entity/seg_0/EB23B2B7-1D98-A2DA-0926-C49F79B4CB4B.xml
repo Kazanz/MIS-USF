@@ -28,8 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>*</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RESPONSE ID" id="851D2FF6-D3BE-F3A9-FC5E-EC66FE38FDE7">
 <createdBy>kazanz</createdBy>

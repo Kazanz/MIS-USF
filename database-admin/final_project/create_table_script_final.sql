@@ -177,7 +177,7 @@ CREATE TABLE "QuestionFollows" (
 
 CREATE TABLE "Comments" (
 	id INTEGER NOT NULL, 
-	response_id INTEGER, 
+	response_id INTEGER NOT NULL, 
 	parent_id INTEGER, 
 	PRIMARY KEY (id), 
 	FOREIGN KEY(response_id) REFERENCES "Responses" (id), 
