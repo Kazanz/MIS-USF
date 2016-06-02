@@ -1,0 +1,72 @@
+Data warehouse is a "subject oriented, integrated, non-volatile, time varient collection of data in support of managements decisions"
+A copy of transactional data, specifically structured for query and analysis.
+
+
+Integreated: data from a variety of places
+Almost always have a temporal direction
+
+Operational databases vs Data Warehouses:
+
+Operations databases:
+processes are on small subsets of data
+administered as a unit
+transaction orientd and speed matters
+designed to control redundancy
+avoid modification anomolies
+highly available and stable
+Support day to day operations.
+
+Data warehouses:
+analysis or read-only.
+for exploratory data analysis.
+relaxed performance constraints.
+few a priori requirements.
+seperately administrered units.
+redundancy is a fact of life.
+flexible structure.
+supports analysis and decision making.
+
+Kimbal designs dimentional modeling as:
+"a logical design technique for structuring data so that it is intuitive to business users and delivers fast query performance"
+Dimentional modeling is widely accepted as the preferred approach for DW/BI presentation
+design that inevitably happens when understandability and performance are the highest goals
+
+The fundamental idea is that data can be structured as a data cube.
+Where the cells of the cube contain mesaured values, the edges of the cube contain natural dimensions.
+of course we use more than three dimensions.
+
+dimentional model or star join schema:
+seperates facts from dimensions
+The center of the star is the central fact table, where the surrounding tables have dimensions for filtering the data
+
+most fact tables will have a calender date dimension.
+
+Fact tables typically store important numeric/business measurments and  the intersection of the radiating dimensions
+The best most useful facts are numeric, continuously valued, and additive.
+a huge number of rows need be compressed for a useful summary
+Fact tables may be sparse or sampled
+
+The idea that a measurement event in the physical world has a one-to-one relationship to a single row in the corresponding fact table is the bedrock principal for dimensional modeling.
+
+Dimension tables store discrete categories that identify the granularity of the mesaurements of the fact table
+They have many attributes for a rich query environment
+The best attrs are textual, discrete, and used as the source constraints and row headers in the users answer set.
+Dimensions are constant (or at least slowly changing)
+
+If the perspective seems too simple... Good! It has a chance of remaining simple
+
+Data warehousings goal is to make enterprise business data available for analysis
+The data is consistent
+it includes the data and the tools for exploring the data, as well as machine-learning algorithms for data mining.
+The warehouse is where we publish data
+The quality of the data is the driver for business re-engineering
+
+
+Kimbals bus architecture is good for tracking additional dimesnions.  Starts snowflakes, constellations etc.
+snowflakes do not have the ease of understanding and performance of flattened demnormalized dimension table.
+Outrigger dimesnios should be used sparingly.  Usually each circumstance should be represented by two seperate foreign keys instead.
+
+Shared or conformed dimensions provide data warehousing standards that are usefulacross many start schemas.  Constellations.
+The deisng and maintenece of shared dimensions is a good investment
+Interfaces an meta dta are more consistent
+Data interpretations and cross-references are enhanced.
