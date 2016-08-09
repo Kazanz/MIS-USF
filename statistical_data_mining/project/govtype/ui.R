@@ -10,6 +10,9 @@ getChoices <- function(column) {
 shinyUI(fluidPage(
   
   titlePanel("Quality of Life by Government Type and Economic System"),
+  "By: Zach Kazanski",
+  br(),
+  "For: Statistical Data Mining @ USF with Wolfgang Jank",
   hr(),
   fluidRow(
     column(
@@ -62,7 +65,9 @@ shinyUI(fluidPage(
           "Using more detailed data from the most recent Index of Economic Freedom would allow for more precise predictors in terms of how government money is spent.",
           "Additionally developing a better metric for liberal vs conservative governments could provide greater insight.",
           h3("Contact"),
-          "Kazanski.Zachary (at) gmail"
+          "Kazanski.Zachary (at) gmail",
+          br(),
+          br()
         ),
         tabPanel(
           "Economic System",
