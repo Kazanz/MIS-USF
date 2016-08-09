@@ -117,7 +117,7 @@ shinyUI(fluidPage(
           )
         ),
         tabPanel(
-          "Regression Model",
+          "Regression Models",
           fluidRow(
             column(
               6,
