@@ -2,7 +2,7 @@ library(shiny)
 library(gridExtra)
 library(lattice)
 
-data <- read.csv("/Users/kazanz/usf/statistical_data_mining/project/world_data.csv")
+data <- read.csv("world_data.csv")
 
 # TODO: make filtered data more dry.
 

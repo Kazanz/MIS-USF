@@ -1,0 +1,66 @@
+When a mean is significantly greater than the median it is skewed right.
+Skewed right: a distribution with extreme observations to the right.
+
+Data summaries fail to inform us about other important characteristics such as:
+- Variability
+- Skew
+- # of modes
+- Unusual data points
+
+From histograms we can see the skewing of th data
+Summary statistics could never show us if a mode has tails on each size
+
+Historgrams are used to identify:
+- Shape of a distribution
+- Variability
+- Number of Models
+
+Bi-modal data analysis is fundamentaly different than single mode data.
+
+Single variables let us make assesments of 
+- shape 
+- typical values
+- skew
+- range
+
+Two or more variables help us to make predictions
+
+Positive relationship.  As one value goes up so do the others.
+
+Scatterplots help to analyze relationships between variables.
+Scatter plot should be used with a correlation table.
+
+Scatter plot matrix lts us look at all relationships of the data in a single view
+Discrete variables: bedroom for example
+
+If variables are continuous then scatter plot is good.  Its harder to find predictions with discrete variables
+in scatter plots, and tables are more appropriate.
+
+XY condition plot or trellis graph.  Shows seperate panels for each value in 
+a category.
+
+----------------------
+
+Seperating predictable trend from unpredictable variation.
+Seperat signal from noise
+Confidence interval estimation.
+Hypothesis testing
+
+9 out of 300 is a relatively large sample size.
+Election polls usually only poll 1000 people.
+
+Decisions can be arrived at with certain confidence intervals.
+
+Central Limit Theorum.  To reduce the error of a decision the probablitily of a wrong decision needs to be calculated
+47% probability is large
+p-Value measure the probability of a claim or hyposthesis
+If the p-value is under 5% the hyposthesis is considered implausible.
+
+Confidence intervals
+Range of numbers is the range of plausible values that could have the truth.
+confidence intervals tell us how confident we are in this range.
+All numbers in the confidence interval have the same probability to be the truth.
+
+The government usually assess the tax burden on the lower side of the interval for large consumer companies.
+
+

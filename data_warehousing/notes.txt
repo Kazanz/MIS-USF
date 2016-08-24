@@ -1,0 +1,34 @@
+Kimballs Bus architecture "Focused on small incremental advancements"
+
+The primray objective of most DW/BI systems is to monitor the performance results
+of these key processes.  Because of unique granularity, time interval, dimensionality
+these processes typical sprawl over multiple fact tables.
+
+The value chain is often expressed as a workflow or set of core business processes
+Operational systems often produce transactions at each step.
+These stepwise transactions are perfect for analytics that monitor core processes
+Fact tables can be used for each process
+
+With periodic snapshot fact tables where you cannot express the granularity
+in terms of a transaction, so a list of dimensions is needed instead.
+
+
+All measures that record a static level (inventory levels, financial account balances,
+and measures of intensity such as room temperatures) are inherintly non-additive across the date-dimension
+and possible others.
+
+Periodic snapshots fact tables are likely to be dense not sparse like transaction fact tables.
+you will see an invetory number for every product at every snapshot.
+
+Dense fact tables can become quite large.
+Ways of controlling storage growth include adjusting the snapshot period, retention policies
+tiered levels of aggregation (combinations of daily, weekly, monthly, snapshots)
+
+Inventory levels are not additive because they represent a certain level or balance at one point in time
+
+Acumulating snapshot fact tables
+are used for processes that have a definite beginning, end, and identifiable milestones in between
+One row is placed in the fact table when a particular product is received in the warehouse
+The disposition of this product is tracked until it leaves the warehouse.
+Always have multiple date foreign keys
+Row updated each time a milstone is reached.

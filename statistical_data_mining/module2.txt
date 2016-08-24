@@ -1,0 +1,5 @@
+To use linear regression, the data must look linear.
+Scotterplots and correlations are qualitative relationships.
+quantitative assesment: regression model.
+Should only apply linear models that are reasonable conceptually and supported by the data.
+

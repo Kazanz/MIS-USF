@@ -1,6 +1,6 @@
 library(shiny)
 
-data <- read.csv("/Users/kazanz/usf/statistical_data_mining/project/world_data.csv")
+data <- read.csv("world_data.csv")
 
 getChoices <- function(column) {
   types = sort(unique(data[[ column ]]))
